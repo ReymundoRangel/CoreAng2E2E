@@ -54,7 +54,7 @@
     "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
   },
   "tooling": {
-    "Microsoft.AspNetCore.Server.IISIntegration.Tools\"": "1.1.0-preview4-final",
+    "Microsoft.AspNetCore.Server.IISIntegration.Tools": "1.0.0-preview4-final",
     "defaultNamespace": "COreAng2E2E"
   },
   "tools": {}
